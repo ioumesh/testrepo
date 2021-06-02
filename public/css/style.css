@@ -1,0 +1,863 @@
+body {
+  font-family: "Roboto", sans-serif;
+  /* overflow-y: auto; */
+}
+
+/* Header Css */
+.headerSection {
+  border-bottom: 1px solid #fff;
+  height: 95px;
+  background: #fff;
+  width: 100%;
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  padding-top: 5px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.sticky {
+  box-shadow: 0 0px 10px #eee;
+}
+.navbarRow {
+  padding: 0px;
+}
+.headerSection img {
+  height: 40px;
+  margin-top: 18px;
+}
+.topmenu li a {
+  font-size: 21px;
+  padding: 0 13px !important;
+  font-weight: 300;
+  color: #333 !important;
+}
+.topmenu li a:hover {
+  color: #2f80ed !important;
+}
+li.blueActive a {
+  color: #2f80ed !important;
+  margin-right: 15px;
+  /* text-decoration: none; */
+}
+li.blackActive a span {
+  background-color: #000;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 4px;
+}
+div#navbarNav {
+  margin-top: 10px;
+}
+.container-xl {
+  max-width: 1190px;
+}
+li.blackActive a {
+  padding: 0 !important;
+  margin: 0px;
+  text-decoration: none;
+}
+.topmenu {
+  margin-top: 15px;
+}
+.headingRow {
+  text-align: center;
+  padding: 80px 0 50px;
+  margin-top: 100px;
+}
+.headingRow h1 {
+  font-weight: 500;
+  font-size: 50px;
+}
+.textRow h2 {
+  font-size: 20px;
+}
+.textRow h3 {
+  font-size: 22px;
+  display: block;
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+}
+.textRow p {
+  font-size: 17px;
+  font-weight: 300;
+  text-align: justify;
+}
+/* HeaderEnd */
+
+.getStart {
+  border: 2px solid #333;
+  height: auto;
+  padding: 30px 90px 15px;
+  margin-bottom: 20px;
+  float: left;
+  width: 100%;
+}
+.getStart p {
+  font-size: 35px;
+  font-weight: 400;
+}
+.getStart a {
+  float: right;
+  background: #000;
+  color: #fff;
+  padding: 14px 48px;
+  font-size: 22px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+.contact-us {
+  margin-top: 180px;
+  margin-bottom: 75px;
+}
+.formRow {
+  box-shadow: 0px 0px 15px #eee;
+  padding: 40px;
+}
+.formRow label {
+  color: #7c8898;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.formRow .form-control {
+  border-radius: 0px;
+  background: #f1f1f1;
+  border: none;
+}
+.textareaHe {
+  height: 120px;
+}
+.send-message {
+  background: #000;
+  border-radius: 0px;
+  color: #fff!important;
+  font-weight: 300;
+  padding: 8px 30px;
+  margin-top: 10px;
+}
+input.form-control.error {
+  border: 1px solid #ff0000;
+}
+.contact-left h1 {
+  font-size: 50px;
+}
+.contact-left p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #666;
+  line-height: 32px;
+}
+.contact-left h2 {
+  font-size: 30px;
+  color: #777;
+  margin-top: 50px;
+}
+.contact-left a {
+  margin-bottom: 45px;
+  display: inline-block;
+  color: #595959;
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.addressRow h6 {
+  font-size: 30px;
+  color: #777;
+  margin-top: 50px;
+}
+
+.addressRow p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #666;
+  line-height: 32px;
+}
+
+.pricing-cls {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  float: left;
+  display: block;
+  width: 100%;
+}
+
+.pricing-text {
+  margin-top: 0;
+  padding: 0px 250px;
+  text-align: center;
+}
+
+.pricing-text h3 {
+  font-weight: 300;
+}
+
+.pricing-text h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.pricing-text p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 40px;
+  color: #666;
+}
+
+p.sizebig {
+  font-size: 30px;
+  /* margin: 40px 0; */
+}
+.priceing-service {
+  margin-bottom: 90px;
+}
+.service-box {
+  border: 1px solid #ccc;
+  padding: 40px;
+  width: 70%;
+  margin: 0px auto;
+  float: right;
+  margin-right: 15px;
+  text-align: center;
+  min-height: 510px;
+}
+.service-box h4 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #666;
+  margin-top: -80px;
+  margin-bottom: 60px;
+}
+.service-box h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+p.free-service {
+  font-size: 21px;
+  color: #666;
+  font-weight: 300;
+  margin-bottom: 28px;
+}
+p.for-team {
+  font-size: 24px;
+  color: #666;
+  font-weight: 400;
+}
+p.get-started {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 35px 0;
+  margin: 25px 0px;
+}
+p.get-started a {
+  border: 1px solid #000;
+  padding: 11px 30px;
+  display: block;
+  border-radius: 7px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  background: #fff;
+}
+p.get-started a:hover {
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+}
+p.no-credit {
+  font-size: 20px;
+  font-weight: 200;
+  color: #555;
+}
+.service-box2 {
+  box-shadow: 0 0px 20px #c7c7c7;
+  padding: 40px;
+  width: 70%;
+  margin: 0px auto;
+  float: left;
+  margin-left: 15px;
+  background: #333;
+  text-align: center;
+  min-height: 510px;
+}
+.service-box2 h4 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #666;
+  margin-top: -80px;
+  margin-bottom: 60px;
+}
+.service-box2 h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #dcdbdc;
+}
+.service-box2 p.free-service {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.service-box2 p.free-service span {
+  font-size: 20px;
+}
+.service-box2 p.for-team {
+  font-size: 24px;
+  color: #9d9d9d;
+  font-weight: 400;
+}
+.service-box2 p.get-started {
+  border-top: 1px solid #434343;
+  border-bottom: 1px solid #434343;
+  padding: 35px 0;
+  margin: 25px 0px;
+}
+.service-box2 p.get-started a {
+  border: 1px solid #fff;
+  padding: 11px 30px;
+  display: block;
+  border-radius: 7px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  background: none;
+}
+.service-box2 p.get-started a:hover {
+  background: #fff;
+  color: #333;
+  text-decoration: none;
+}
+.service-box2 p.no-credit {
+  font-size: 20px;
+  font-weight: 200;
+  color: #fff;
+}
+p.no-credit b {
+  display: block;
+  font-size: 22px;
+}
+.explore-all {
+  margin: 75px 0 0;
+  text-align: center;
+}
+.explore-all a {
+  background: #000;
+  padding: 16px 55px;
+  font-size: 22px;
+  color: #fff;
+}
+
+.leftBorder {
+  width: fit-content;
+  padding-bottom: 5px;
+  border-left: 3px solid transparent;
+}
+
+.leftBorder:hover {
+  border-color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.bottomBorder {
+  width: fit-content;
+  padding-bottom: 5px;
+  border-bottom: 3px solid transparent;
+}
+
+.bottomBorder:hover {
+  border-color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+/* Simple Accordion jQuery */
+.jquery_accordion_item {
+  display: inline-block;
+  width: 100%;
+}
+.jquery_accordion_title {
+  font-size: 20px;
+  color: #333;
+  display: block;
+  padding: 30px 40px 0px 0px;
+  font-weight: 400;
+  position: relative;
+  cursor: pointer;
+}
+.jquery_accordion_title:after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  border: 6px solid transparent;
+  border-top-color: #666;
+  transition: border 400ms, margin 400ms;
+  margin-top: -3px;
+}
+.jquery_accordion_item.active .jquery_accordion_title:after {
+  border-color: transparent;
+  border-bottom-color: #333;
+  margin-top: -9px;
+}
+.jquery_accordion_content {
+  padding: 8px;
+  display: none;
+  color: #333;
+}
+.jquery_accordion_content > *:first-child {
+  margin-top: 0;
+}
+.faq-heading h3 {
+  font-size: 35px;
+  font-weight: 500;
+}
+.faq-heading {
+  text-align: center;
+}
+.jquery_accordion_wrapper p {
+  font-size: 17px;
+  line-height: 30px;
+  color: #555;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.faq-list {
+  margin-bottom: 60px;
+}
+.pricing-text p i {
+  text-decoration: underline;
+  font-style: normal;
+}
+
+.btn-logo-row {
+  border: 2px solid #000;
+  padding: 25px 25px 35px;
+  text-align: center;
+}
+.logoclients-btm img {
+  height: 60px;
+}
+.trusted-logos {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+/* Footer Css start here */
+.footerRow {
+  margin-top: 70px;
+  width: 100%;
+  display: block;
+  float: left;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.sublinks {
+  display: block;
+  float: left;
+}
+.sublinks h2 {
+  font-size: 22px;
+  color: #333;
+  font-weight: 400;
+}
+.sublinks ul li {
+  list-style: none;
+  line-height: 50px;
+}
+.sublinks ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.sublinks ul li a {
+  color: #333;
+  font-weight: 300;
+  font-size: 17px;
+}
+img.logoBtm {
+  height: 30px;
+  margin-bottom: 60px;
+}
+.leftBoxFt p {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+.leftBoxFt ul li img {
+  width: 36px;
+}
+.leftBoxFt ul li {
+  list-style: none;
+  float: left;
+  width: 50px;
+}
+.leftBoxFt ul {
+  margin: 0px;
+  padding: 0px;
+}
+.emailId a {
+  font-size: 19px;
+  color: #333;
+  font-weight: 300;
+  padding: 8px 0 20px;
+  display: block;
+}
+/* Footer End */
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .headerSection {
+    height: 70px;
+    border-bottom: none;
+    background: #fff;
+    width: 100%;
+    z-index: 99;
+    position: fixed;
+    top: 0px;
+    padding-top: 5px;
+  }
+  .headerSection img.mobileLogo {
+    height: 30px;
+    margin-top: 15px;
+    position: absolute;
+    left: 2px;
+  }
+  button.menuIcon img {
+    height: 20px;
+  }
+  button.menuIcon {
+    border: none;
+    margin-right: 0;
+    padding-right: 0px;
+  }
+  button.menuIcon:focus {
+    outline: none;
+  }
+  div#myNavbar {
+    background: #fff;
+    width: 100%;
+    padding: 10px 0 30px;
+    margin-top: 22px;
+  }
+  div#myNavbar .nav-item {
+    margin-bottom: 10px;
+  }
+  li.nav-item.blackActive {
+    margin-top: 15px;
+  }
+  li.blueActive a {
+    margin-right: 0;
+  }
+  .topmenu li a {
+    padding: 0 !important;
+  }
+  .sublinks h2 {
+    margin-bottom: 0;
+  }
+  img.logoBtm {
+    margin-bottom: 15px;
+  }
+  .leftBoxFt p {
+    margin-bottom: 25px;
+  }
+  .headingRow {
+    text-align: center;
+    padding: 40px 0 40px;
+    margin-top: 100px;
+  }
+  .sublinks {
+    margin-bottom: 32px;
+  }
+  .emailId a {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .getStart {
+    border: 2px solid #333;
+    height: auto;
+    padding: 20px 20px 35px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .getStart p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .getStart a {
+    float: none;
+    padding: 11px 35px;
+    font-size: 17px;
+    margin-top: 0;
+  }
+  .contact-us {
+    margin-top: 140px;
+    margin-bottom: 70px;
+  }
+  .contact-left h1 {
+    font-size: 35px;
+  }
+  .contact-left p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .contact-left h2 {
+    font-size: 25px;
+    margin-top: 40px;
+  }
+  .addressRow h6 {
+    font-size: 25px;
+    color: #777;
+    margin-top: 0px;
+  }
+  .addressRow {
+    margin-bottom: 50px;
+  }
+  .addressRow p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .formRow {
+    padding: 20px;
+  }
+  .pricing-text h1 {
+    font-size: 35px;
+  }
+  .pricing-cls {
+    margin-top: 120px;
+    margin-bottom: 70px;
+  }
+  .pricing-text {
+    padding: 0px 15px;
+  }
+  .pricing-text p i {
+    text-decoration: underline;
+    font-style: normal;
+  }
+  p.sizebig {
+    font-size: 17px;
+    margin: 20px 0;
+  }
+  .pricing-text p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .service-box {
+    width: 100%;
+    float: none;
+    min-height: 470px;
+    margin-bottom: 70px;
+  }
+  .service-box2 {
+    box-shadow: 0 0px 20px #c7c7c7;
+    padding: 40px;
+    width: 100%;
+    float: none;
+    margin-left: 0;
+  }
+  .explore-all {
+    margin: 50px 0 0;
+    text-align: center;
+  }
+  .explore-all a {
+    padding: 12px 35px;
+    font-size: 19px;
+  }
+  .faq-heading h3 {
+    font-size: 25px;
+  }
+  .jquery_accordion_title {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .jquery_accordion_title:after {
+    right: 5px;
+    top: 75%;
+  }
+  .priceing-service {
+    margin-bottom: 65px;
+  }
+  .logoclients-btm img {
+    width: 100%;
+    height: auto;
+  }
+  .trusted-logos {
+    font-size: 20px;
+  }
+  .btn-logo-row {
+    padding: 25px 25px 25px;
+  }
+
+  .emailInput {
+    min-width: 90%;
+  }
+
+  .smallCenter {
+    text-align: center;
+  }
+
+
+}
+
+/* Css Start for Table */
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .headerSection {
+    height: 70px;
+    border-bottom: none;
+    background: #fff;
+    width: 100%;
+    z-index: 99;
+    position: fixed;
+    top: 0px;
+    padding-top: 5px;
+  }
+  .headerSection img.mobileLogo {
+    height: 30px;
+    margin-top: 15px;
+    position: absolute;
+    left: 2px;
+  }
+  button.menuIcon img {
+    height: 20px;
+  }
+  button.menuIcon {
+    border: none;
+    margin-right: 0;
+    padding-right: 0px;
+  }
+  button.menuIcon:focus {
+    outline: none;
+  }
+  div#myNavbar {
+    background: #fff;
+    width: 100%;
+    padding: 10px 0 30px;
+    margin-top: 22px;
+  }
+  div#myNavbar .nav-item {
+    margin-bottom: 10px;
+  }
+  li.nav-item.blackActive {
+    margin-top: 15px;
+  }
+  li.blueActive a {
+    margin-right: 0;
+  }
+  .topmenu li a {
+    padding: 0 !important;
+  }
+  .sublinks h2 {
+    margin-bottom: 0;
+  }
+  img.logoBtm {
+    margin-bottom: 15px;
+  }
+  .leftBoxFt p {
+    margin-bottom: 25px;
+  }
+  .headingRow {
+    text-align: center;
+    padding: 40px 0 40px;
+    margin-top: 100px;
+  }
+  .sublinks {
+    margin-bottom: 32px;
+  }
+  .getStart {
+    border: 2px solid #333;
+    height: auto;
+    padding: 20px 20px 10px;
+    margin-bottom: 0px;
+  }
+  .getStart p {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .getStart a {
+    float: right;
+    background: #000;
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 10px;
+  }
+  .pricing-cls {
+    margin-top: 150px;
+    margin-bottom: 70px;
+  }
+  .pricing-text {
+    padding: 0px 40px;
+  }
+  .pricing-text p {
+    font-size: 19px;
+  }
+  p.sizebig {
+    font-size: 21px;
+    margin: 25px 0;
+  }
+  .service-box {
+    width: 85%;
+    margin-right: 0px;
+  }
+  .service-box2 {
+    width: 85%;
+    margin-right: 0px;
+  }
+  p.for-team {
+    font-size: 20px;
+  }
+  .service-box h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  .service-box2 h2 {
+    font-size: 35px;
+  }
+  .service-box2 h4 {
+    font-size: 18px;
+  }
+  .service-box h4 {
+    font-size: 18px;
+  }
+  .priceing-service {
+    margin-bottom: 70px;
+  }
+  .faq-heading h3 {
+    font-size: 30px;
+  }
+  .jquery_accordion_title:after {
+    top: 80%;
+  }
+  .logoclients-btm img {
+    height: 45px;
+  }
+  .trusted-logos {
+    font-size: 25px;
+  }
+  .btn-logo-row {
+    padding: 25px 25px 30px;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+}
